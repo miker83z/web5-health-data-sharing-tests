@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  umbral-server:
+    container_name: umbral-server
+    build: ./umbral-server
+    command: node app.js
+    env_file: .env
+    ports:
+      - "5001:5001"
+
+  umbral-core:
+    container_name: umbral-core
+    image: auth-api:latest
+    env_file: .env
+    ports:
+      - "8022:8022"
