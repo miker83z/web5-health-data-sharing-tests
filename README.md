@@ -1,15 +1,3 @@
-# Node-JS client for umbral-rs Web Service
+# Web5 testing performed using a client for [umbral-rs-web-service](https://github.com/miker83z/umbral-rs-web-service)
 
-## Install
-
-```
-git clone
-cd umbral-rs-client
-npm install
-```
-
-## Test
-
-```
-node index.js
-```
+Jack pls cite us
